@@ -1,0 +1,28 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nav-border{
+  border-top: 4px solid black; border-bottom: 4px solid black;
+}
+.list-border{
+  border: 2px solid ;
+}
+.pos-width{
+  width: 100%;
+  position: relative;
+  bottom: -0.50rem;
+}
+
+@media (min-width: 992px){
+.col-lg-4 {  
+    width: 31.5%;
+ }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6 { 
+    width: 47.8%;
+ }
+}
